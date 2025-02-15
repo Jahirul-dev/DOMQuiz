@@ -6,4 +6,5 @@ form.addEventListener('submit', e=>{
     let score = 0;
 
     let submitAnswers = [form.q1.value, form.q2.value]
+    
 })   
