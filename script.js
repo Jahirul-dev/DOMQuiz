@@ -1,7 +1,17 @@
-var form = document.querySelector('.sub')
-const answers = ["A","B","c"]
+var form = document.querySelector('.quiz-form')
+var answers = ["A","B","B","A"]
 
-form.addEventListener('click', e=>{
+form.addEventListener('submit', e=>{
     e.preventDefault();
-    console.log('dastes');    
+    let count = 0; 
+
+    let correctAnswer = [form.q1.value, form.q2.value, form.q3.value, form.q4.value ];
+    
+
+    console.log(correctAnswer);
+    
+    correctAnswer.forEach(element => {
+        console.log(element);
+        
+    });
 })   
